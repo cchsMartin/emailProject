@@ -5,7 +5,7 @@ public class emailProject {
 	public static void main(String[] args) {
 	    Scanner input = new Scanner(System.in); 
 	    
-	    System.out.println("Please enter your first name");
+	System.out.println("Please enter your first name");
         String fn = input.nextLine(); 
         
 	    System.out.println("Please enter your middle name");
@@ -14,7 +14,7 @@ public class emailProject {
 	    System.out.println("Please enter your last name");
         String ln = input.nextLine(); 
         
-	    System.out.println("Please enter your birthday in the format (mmddyyyy)");
+	    System.out.println("Please enter your birthday in the format (mmddyyyy)"); //This should be mm-dd-yyyy
         String bd = input.nextLine(); 
         
         ln = ln.toLowerCase();
@@ -27,8 +27,9 @@ public class emailProject {
         String password = bd;
         
         System.out.println("Your email is: " + email);
-        System.out.println("Your password is: " + password);
+        System.out.println("Your password is: " + password); //this should be mmddyyyy
         System.out.println("Your current password is weak. Please change immediately.");
 	}
 
 }
+//Grade 90/100. Resubmit with proposed changes for a 100.
